@@ -1,0 +1,61 @@
+body {
+    background-color:#e6eaf0;
+    /* background-image: url("delete-facebook-data.webp"); */
+}
+
+h6{
+    text-align: center;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    /* border: 1px solid; */
+    padding: 10px;
+}
+
+/* has attribute */
+[href] {
+    text-decoration: none;
+    
+}
+
+/* attribute value equals to */
+[href="#google.com"]:hover {
+background-color: red;
+}
+
+/* attribute value starts with */
+[href^="www"]{
+    text-transform: capitalize;
+}
+
+/* attribute value ends with */
+[type$="mail, word"]{
+border-radius: 3px;
+}
+
+/* attribute value contains */
+[href*=".org"]:hover{
+    background-color: aqua;
+}
+
+footer {
+    text-align: center;
+    margin-top: 180px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    font-style:inherit
+}
